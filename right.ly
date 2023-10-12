@@ -26,9 +26,28 @@ right = \absolute {
   <a d'>16. d'32 d' d' <a e'>16 d' cis' cis'32 d' cis' a fis e <dis fis>8\) dis16 fis b dis' fis' b' dis'' \ottava 1 fis'' b'' dis''' fis''' b''' dis'''' |
 
   \time 3/4
-  <b''' b''''>8\fermata \ottava 0 r8 <fis' fis''>4 <ais' ais''> |
+  <b''' b''''>8\fermata \ottava 0 r8 <fis' fis''>4\( <ais' ais''> |
 
-  \key b \major
-  <b' e'' fis'' b''>
+  \key b \major % lmi: alt=0:bis-
+  \tempo "Adagio" 2. = 60
+  <b' e'' fis'' b''>4. <b' b''>8 q q |
+  <b' cis'' fis'' b''>4 <ais' ais''> <fis' fis''> |
+  <cis' cis''>8 <b b'> <fis' fis''>4. <e' e''>8 |
+  <dis' gis' ais' dis''>2\) <gis gis'>8\( <ais ais'> |
+
+  <b e' fis' b'>4. <b b'>8 q q |
+  <cis' e' fis' cis''>4 <b b'> <ais ais'> |
+  <ais dis' fis' ais'>8 <b b'> <ais ais'> <fis fis'> <dis dis'> <cis cis'> |
+  <dis gis bis dis'>2\) <fis' fis''>8\( <ais' ais''> |
+
+  <b' e'' fis'' b''>4. <b' b''>8 q q |
+  <cis'' e'' fis'' cis'''>4 <b' b''> <cis'' cis'''> |
+  <dis'' gis'' ais'' dis'''>8 <e'' e'''> <dis'' dis'''> <ais' ais''> <gis' gis''> <fis' fis''> |
+  <gis' cis'' dis'' gis''>2\) fis'8\( ais' |
+
+  <e' fis' b'>4. b'8 b' b' |
+  <e' fis' cis''>4\arpeggio b' ais' |
+
+  <b dis' fis' b'>\)
 
 }

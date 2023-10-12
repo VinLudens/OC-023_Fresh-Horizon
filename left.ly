@@ -28,7 +28,8 @@ left = \absolute {
   \time 3/4
   r2. |
 
-  \key b \major % lmi: alt=0:bis
+  \key b \major % lmi: alt=0:bis-
+
   \clef "bass" <e,, e,>4\arpeggio <gis, e>-. <b, gis>-. |
   <fis,, fis,>4\arpeggio <ais, fis>-. <cis ais>-. |
   <dis,, dis,>4\arpeggio <fis, dis>-. <ais, fis>-. |
