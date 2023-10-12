@@ -23,7 +23,8 @@ left = \absolute {
   g16 d' g' a'8. fis16 cis' fis' a'8. |
   e16 b e' fis'8. d16 a d' fis'8. |
   g,16 d g a, e a fis, cis fis b, fis b |
-  g,16 d g a, e a <fis, cis fis>8. b,,16 dis, fis, b, dis fis b dis' fis' \clef "treble" b' dis'' fis'' b'' dis''' fis''' |
+  g,16 d g a, e a <fis, cis fis>8. b,,16 dis, fis, |
+  b, dis fis b dis' fis' \clef "treble" b' dis'' fis'' b'' dis''' fis''' |
 
   \time 3/4
   r2. |
