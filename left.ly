@@ -49,6 +49,25 @@ left = \absolute {
   <e, b, e>4 <e gis b>2 |
   <fis, cis fis>4. <fis ais> |
 
-  <cis,, cis,>
+  \key fis \minor
+  \time 4/4
+
+  <cis,, cis,>1 |
+  s1 |
+  \clef "bass" <a,, a,>1 |
+  % lmi: alt=clear alt=3:ees
+  s1 |
+  \clef "bass" <fis,, fis,>1 |
+  s1 |
+  \clef "bass" <ees,, ees,> |
+  s2 r2 |
+  % lmi: key=desM alt=clear alt=6:fis
+  r1 |
+  r1 |
+  \time 2/4
+  \clef "bass" \tuplet 3/2 { a8 fis ees } c8 a, |
+
+  \key des \major % lmi: alt=clear
+  ges,
 
 }
