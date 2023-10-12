@@ -12,7 +12,7 @@ right = \absolute {
   fis'''16 d''' b'' a'' ~ 8 a''16 cis''' ~ 16 d'''16 cis''' b'' ~ 16 a''\) fis'''\( g''' |
   fis''' d''' b'' a'' ~ 8 a''16 fis'' ~ 16 a''16 b'' a'' ~ 8\) fis'''16\( g''' |
   a''' g''' fis''' e''' ~ 16 d''' cis''' a'' ~ 8 fis'''4\) fis'''16\( g''' |
-  fis'''8 b'' d''' e''' <fis'' a'' cis'''>4\fermata\) <a' fis'' cis'''>8\arpeggio\fermata fis''16.\( g''32 |
+  fis'''8 b'' d''' e''' <fis'' a'' cis'''>4\fermata\) \arpeggioArrowDown <a' fis'' cis'''>8\arpeggio\fermata fis''16.\( g''32 | \arpeggioNormal
 
   \time 6/8
   fis''16 d''-. b'-. a'8 a'16-. cis'' d''16. cis''32 b'16 a'\) fis''\( |
@@ -47,7 +47,7 @@ right = \absolute {
   <gis' cis'' dis'' gis''>2\) fis'8\( ais' |
 
   <e' fis' b'>4. b'8 b' b' |
-  <e' fis' cis''>4\arpeggio b' ais' |
+  <e' fis' cis''>4 b' ais' |
 
   \key fis \minor
   \time 4/4

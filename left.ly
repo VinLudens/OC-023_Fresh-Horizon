@@ -41,9 +41,9 @@ left = \absolute {
   <dis,, dis,>4\arpeggio <dis, ais,>-. q-. |
   <gis,, gis,>4\arpeggio <fis gis bis> <bis dis'> |
 
-  <e,, e,>4\arpeggio <gis, e>-. <b, gis>-. |
-  <fis,, fis,>4\arpeggio <ais, fis>-. <cis ais>-. |
-  <dis,, dis,>4\arpeggio <fis, dis>-. <ais, fis>-. |
+  <e,, e,>4\arpeggio <gis, e> <b, gis> |
+  <fis,, fis,>4\arpeggio <ais, fis> <cis ais> |
+  <dis,, dis,>4\arpeggio <fis, dis> <ais, fis> |
   <gis,, gis,>4\arpeggio <dis gis ais> <dis gis bis> |
 
   <e, b, e>4 <e gis b>2 |
