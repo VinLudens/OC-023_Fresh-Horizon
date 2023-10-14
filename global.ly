@@ -5,6 +5,23 @@ global = {
   \time 4/4
 }
 
+% https://lists.gnu.org/archive/html/lilypond-user/2015-11/msg01000.html
+% Piano hand bracket indicator
+hook =
+#(let ((direction? (lambda (n) (= 1 (abs n))))
+        (hook-markup #{ \markup \path #0.175 #'((moveto 0 0)
+                                                (rlineto -0.85 0)
+                                                (rlineto 0 3)) #}))
+    (define-event-function (direction on-line) (direction? boolean?)
+      (let* ((self-al (if on-line 0.6 0.31))
+             (self-al (if (= direction 1) (- self-al) self-al)))
+        #{
+          \tweak self-alignment-Y $self-al
+          \tweak extra-spacing-width #'(-.5 . 0)
+          \finger \markup \scale #(cons 1 direction) #hook-markup
+        #})))
+
+
 %{
 Some other usefull commands
 
