@@ -9,7 +9,7 @@
 
 \editionMod tweaks 5 11/16 music.Voice.A \shape #'((0 . -1.5) (0 . 0.5) (0 . 0) (0 . -1)) PhrasingSlur
 
-\editionMod tweaks 7 11/16 music.Voice.A \shape #'((0 . -1.5) (0 . 0.6) (0 . 0) (0 . -1)) PhrasingSlur
+\editionMod tweaks 6 11/16 music.Voice.A \shape #'((0 . -1.5) (0 . 0.6) (0 . 0) (0 . -1)) PhrasingSlur
 
 \editionMod tweaks 13 3/8 music.Voice.A {
   \override Staff.OttavaBracket.stencil = #ly:line-spanner::print
