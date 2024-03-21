@@ -123,3 +123,5 @@
 \editionMod tweaks 36 1/4 music.Voice.A \once\override Staff.OttavaBracket.shorten-pair = #'(1 . 0)
 \editionMod tweaks 36 1/4 music.Voice.A \set Voice.middleCPosition = #(+ -6 -7)
 \editionMod tweaks 36 2/4 music.Voice.A \unset Voice.middleCPosition
+
+\editionMod tweaks 62 3/4 music.Voice.A \once\override Staff.OttavaBracket.shorten-pair = #'(-0.0 . 0)
