@@ -23,8 +23,8 @@ right = \absolute {
   \appoggiatura g''16 a'' a'' a'' a'' g'' fis'' e'' d''8 \appoggiatura cis'''16 a''8\) fis''16\( |
   \appoggiatura g''16 a''8 a''16 \appoggiatura b''16 a'' g'' fis'' e'' d''8 \appoggiatura a''16 fis''8\) fis'16\( |
   \appoggiatura g'16 <e' a'>8 a'16 \appoggiatura b'16 q16 g' fis' <b e'>32 d' a'16. g'32 <d' fis'>8\) \parenthesize b32\( cis' | % lmi: key=bM
-  <a d'>16. d'32 d' d' <a e'>16 d' cis' cis'32 d' cis' a fis e <dis fis>8\) dis16 |
-  fis b dis' fis' b' dis'' \ottava 1 fis'' b'' dis''' fis''' b''' dis'''' |
+  <a d'>16. d'32 d' d' <a e'>16 d' cis' \clef "bass" cis'32 d' cis' a fis e <dis fis>8\) dis16 |
+  fis b dis' \clef "treble" fis' b' dis'' \ottava 1 fis'' b'' dis''' fis''' b''' dis'''' |
 
   \time 3/4
   <b''' b''''>8\fermata \ottava 0 r8 <fis' fis''>4\( <ais' ais''> |
