@@ -53,6 +53,7 @@ date = #(strftime "%B %d %Y" (localtime (current-time)))
     \context {
       \Score
       \editionID ##f music
+      \consists "Span_stem_engraver"
     }
   }
   \midi {
