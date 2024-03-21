@@ -54,20 +54,20 @@ right = \absolute {
   \tempo "Cantabile" 1 = 36
   <b dis' fis' b'>2\fermata\) \tiny \tuplet 6/4 4 {
     \change Staff = "left" \stemUp cis16 gis cis' \change Staff = "right" b dis' b' \change Staff = "left" \clef "treble" \stemNeutral cis' gis' cis'' \change Staff = "right" b' dis'' b'' \change Staff = "left" |
-    cis'' gis'' cis''' \change Staff = "right" b'' dis''' b''' \change Staff = "left" cis'''-"cross staff ottava" gis''' cis'''' \change Staff = "right" b''' dis'''' b''''
+    cis'' gis'' cis''' \change Staff = "right" b'' dis''' b''' \change Staff = "left" cis''' gis''' cis'''' \change Staff = "right" b''' dis'''' b''''
   } \normalsize r4 <b b'>\( |
   <b cis' fis' b'>4. <a a'>8\) \tiny \tuplet 6/4 4 {
     \change Staff = "left" \stemUp a,16 e a \change Staff = "right" fis cis' fis' \change Staff = "left" \clef "treble" \stemNeutral a e' a' \change Staff = "right" fis' cis'' fis'' \change Staff = "left" |
-    a' e'' a'' \change Staff = "right" fis'' cis''' fis''' \change Staff = "left" a''-"cross staff ottava" e''' a''' \change Staff = "right" fis''' cis'''' fis''''
+    a' e'' a'' \change Staff = "right" fis'' cis''' fis''' \change Staff = "left" a'' e''' a''' \change Staff = "right" fis''' cis'''' fis''''
   } \normalsize r4 q4\( |
   <gis cis' e' gis'>4. <fis fis'>8\) \tiny \tuplet 6/4 4 {
     \change Staff = "left" \stemUp fis,16 cis fis \change Staff = "right" e cis' e' \change Staff = "left" fis cis' fis' \change Staff = "right" e' cis'' e'' \change Staff = "left" |
-    \clef "treble" \stemNeutral fis' cis'' fis'' \change Staff = "right" e'' cis''' e''' \change Staff = "left" fis''-"cross staff ottava" cis''' fis''' \change Staff = "right" e''' cis'''' e''''
+    \clef "treble" \stemNeutral fis' cis'' fis'' \change Staff = "right" e'' cis''' e''' \change Staff = "left" fis'' cis''' fis''' \change Staff = "right" e''' cis'''' e''''
   } \normalsize r4 q\( |
   % lmi: alt=clear alt=3:ees
   <f a cis' f'>4. <ees ees'>8\) \tiny \tuplet 6/4 4 {
     \change Staff = "left" \stemUp ees,16 a, ees \change Staff = "right" eis a ees' \change Staff = "left" ees a ees' \change Staff = "right" eis' a' ees'' \change Staff = "left" |
-    \clef "treble" \stemNeutral ees' a' ees'' \change Staff = "right" eis'' a'' ees''' \change Staff = "left" ees''-"cross staff ottava" a'' ees''' \change Staff = "right" \ottava 1 eis''' a''' ees'''' ~
+    \clef "treble" \stemNeutral ees' a' ees'' \change Staff = "right" eis'' a'' ees''' \change Staff = "left" ees'' a'' ees''' \change Staff = "right" eis''' a''' ees'''' ~
   } \normalsize 4 cis''''  |
   % lmi: key=desM alt=clear alt=6:fis
   c'''' \acciaccatura ees''''8 des''''4 c'''' bes''' |
