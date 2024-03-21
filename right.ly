@@ -113,7 +113,7 @@ right = \absolute {
   <ees' g' bes'>2\fermata g'8 ees' |
   \time 4/4
   g' bes' g'' ees'' g'' bes'' \ottava 1 g''' ees''' | \set fingeringOrientations = #'(left)
-  g''' a''' \tuplet 9/6 { bes'''[ ees'''' bes''' a''' g''' ees'''-\hook #UP ##t bes''-\hook #DOWN ##t a'' g''] } \ottava 0 | \unset fingeringOrientations
+  g''' a''' \tuplet 9/6 { bes'''[ ees'''' bes''' a''' g''' \change Staff = "left" \clef "treble^8" ees''' \change Staff = "right" bes'' a'' g''] } \ottava 0 | \unset fingeringOrientations
 
   \time 4/4
   \key d \major % lmi: alt=clear

@@ -114,7 +114,7 @@ left = \absolute {
   \key d \major % lmi: a=f
 
 
-  <g d' fis'>2 <g b cis' e'> |
+  \clef "bass" <g d' fis'>2 <g b cis' e'> |
   <fis a cis' e'>2 <fis a cis' d'> |
   <e g b d'>2 <d fis a cis'> |
   <e g b d'>8.-.\arpeggio <ees g bes d'>-. <cis fis a e'>8-.\arpeggio r16 d,8. <d fis a cis'>4 |
