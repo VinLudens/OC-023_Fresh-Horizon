@@ -88,10 +88,13 @@ left = \absolute {
   <ges, des>4 <ges bes>2 |
   <bes, f>4 <bes des'>2 |
   <ees, bes,>4 <aes des'>2 |
-  r8 ces, << { \voiceOne
+  r8 ces, <<
+    {
+      \voiceOne
       <ges bes>2-"cross staff chord"
     }
-    \new Voice { \voiceTwo \change Staff = "right"
+    \new Voice {
+      \voiceTwo \change Staff = "right"
       <des' ges'>2
     }
   >> \oneVoice |
