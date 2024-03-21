@@ -44,7 +44,7 @@
   \override Staff.OttavaBracket.bound-details =
   #`((left . ((Y . -6)
               (attach-dir . ,LEFT)
-              (padding . 0.5)
+              (padding . 0.8)
               (stencil-align-dir-y . ,CENTER)))
      (right . ((Y . 0.0) ; Change the number here
                          (padding . 0)
